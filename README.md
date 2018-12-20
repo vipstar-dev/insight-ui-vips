@@ -1,6 +1,6 @@
 # Insight UI
 
-A VIPSTARCOIN blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/bitpay/insight-api).
+A VIPSTARCOIN blockchain explorer web application service for [VIPSTARCOINCore Node](https://github.com/vips-wallet/vipstarcoincore-node) using the [VIPSTARCOIN API](https://github.com/vips-wallet/vipstarcoin-api).
 
 ## Quick Start
 
@@ -11,12 +11,12 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node
-bitcore-node create mynode
+npm install -g vipstarcoincore-node
+vipstarcoincore-node create mynode
 cd mynode
-bitcore-node install insight-api
-bitcore-node install insight-ui
-bitcore-node start
+vipstarcoincore-node install vipstarcoin-api
+vipstarcoincore-node install git://github.com/vipstar-dev/insight-ui-vips.git
+vipstarcoincore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/bitpay/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/bitpay/insight-api).
+For more details about the [VIPSTARCOIN API](https://github.com/vips-wallet/vipstarcoin-api) configuration and end-points, go to [VIPSTARCOIN API GitHub repository](https://github.com/vips-wallet/vipstarcoin-ap).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/bitpay/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/vipstar-dev/insight-ui-vips).
 
 
 ## License
