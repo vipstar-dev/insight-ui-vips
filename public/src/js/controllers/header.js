@@ -7,7 +7,7 @@ angular.module('insight.system').controller('HeaderController',
     $rootScope.currency = {
       factor: 1,
       bitstamp: 0,
-      symbol: 'BTC'
+      symbol: 'VIPS'
     };
 
     $scope.menu = [{
@@ -16,6 +16,9 @@ angular.module('insight.system').controller('HeaderController',
     }, {
       'title': 'Status',
       'link': 'status'
+    }, {
+      'title': 'Tokens',
+      'link': 'token'
     }];
 
     $scope.openScannerModal = function() {
